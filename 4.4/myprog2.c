@@ -31,5 +31,6 @@ main()
   if (fd3<0){ perror("Error.");}
   close(fd3);
 
-  int link = symlink("dir2/file20","link1");
+  int link;
+  link = symlink("dir2/file20","link1");
 }
